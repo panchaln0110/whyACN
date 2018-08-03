@@ -6,7 +6,23 @@ H4: 16 Lato (main body text)
 H5: 14 Lato 
 H6: 12 Lato
 */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
 
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 article,
 aside,
 dialog,
@@ -81,6 +97,9 @@ section {
 
 .carousel-indicators {
     position: relative;
+}
+.carousel-indicators li{
+    background-color: #4A90E2;
 }
 
 .carousel-caption {
@@ -376,6 +395,9 @@ sub {
 
 .major-white {
     color: white;
+}
+.major-black{
+    color: black;
 }
 
 .acn-grey {
@@ -800,6 +822,11 @@ button.btn.btn-secondary.dropdown-toggle{
     background: url(../images/WhyACN_Mobile/header_image.png) center;
     background-size: cover;
 }
+#l-banner-whoACN{
+    height: 100%;
+    background: url(../images/Who_is_ACN_image/Who_Is_ACN_mobile/header_image.png) center;
+    background-size: cover;
+}
 
 #l-banner-wacntext {
     height: 100%;
@@ -1026,6 +1053,7 @@ button.btn.btn-secondary.dropdown-toggle{
     transition: 0.3s;
 }
 
+
 carousel-example-generic {
     width: 100%;
 }
@@ -1039,6 +1067,9 @@ carousel-example-generic {
 .comment {
     background-color: #57C8CD;
     /*    height: 365pt;*/
+}
+.bg-colorcomment{
+    background-color: #F2F5F9!important;
 }
 
 .commit_wacn {
@@ -1121,6 +1152,12 @@ section#support ul > li {
 #Givingback {
     height: 100%;
     background: url(../images/givingBackimg2.png);
+    background-size: cover;
+    color: white;
+}
+#co-founder{
+    height: 100%;
+    background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/co-founder-banner.png);
     background-size: cover;
     color: white;
 }
@@ -1259,8 +1296,15 @@ div.col-sm-2.col-6 {
     #ss-section > div.container {
         max-width: 100%;
     }
-
-
+    #co-founder > div.container{
+        max-width: 1460px;
+    }
+    .commit_wisacn > div.container {
+        max-width: 730px;
+    }
+    .commit_wisacnpeople > div.container{
+        max-width: 1481px;
+    }
 }
 
 
@@ -1453,6 +1497,11 @@ div.col-sm-2.col-6 {
         background: url(../images/WhyACN_Desktop/Header_image.png) center;
         background-size: cover;
     }
+    #l-banner-whoACN{
+        height: 100%;
+        background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/header_image.png) center;
+        background-size: cover;
+    }
     #l-banner-wacntext {
         height: 100%;
         background: url(../images/WhyACN_Desktop/banner2.png) center;
@@ -1480,7 +1529,7 @@ div.col-sm-2.col-6 {
         margin-top: 275px;
     }
     .l-banner-position-wacn {
-        height: 533px;
+        height: 500px;
         width: 100%;
     }
     .l-banner-position {
@@ -1631,6 +1680,12 @@ div.col-sm-2.col-6 {
     }
     .d-Dnone {
         display: block;
+    }
+    .mt--18{
+        margin-left: -18rem;
+    }
+    .major-bgwhite{
+        background-color: white;
     }
     .simple {
         position: relative;
@@ -1822,6 +1877,11 @@ div.col-sm-2.col-6 {
         background: url(../images/WhyACN_Tablet/why_header.png) center;
         background-size: cover;
     }
+    #l-banner-whoACN{
+        height: 100%;
+        background: url(../images/Who_is_ACN_image/WhoIsACN_Tablet/banner_header.png) center;
+        background-size: cover;
+    }
     #l-banner-wacntext {
         height: 100%;
         background: url(../images/WhyACN_Tablet/banner2.png) center;
@@ -1935,6 +1995,11 @@ div.col-sm-2.col-6 {
         background: url(../images/givingback-tablet.png) center;
         background-size: cover;
     }
+    #co-founder{
+        height: 100%;
+        background: url(../images/Who_is_ACN_image/WhoIsACN_Tablet/co-founders-banner.png) center;
+        background-size: cover;
+    }
     ul.social-links {
         margin-top: 15px;
     }
@@ -2009,6 +2074,9 @@ div.col-sm-2.col-6 {
     .d-Dnone {
         display: block;
     }
+    .major-bgmwhite{
+        background-color: white;
+    }
     .d-hidemm {
         display: none;
     }
@@ -2033,6 +2101,9 @@ div.col-sm-2.col-6 {
         width: 30%;
     }
     .mt-0 {
+        margin-top: 0px;
+    }
+    .mtt-0{
         margin-top: 0px;
     }
     .mb-r {
@@ -2147,6 +2218,11 @@ div.col-sm-2.col-6 {
         background: url(../images/givingback-mobile.png) center;
         background-size: cover;
     }
+    #co-founder{
+        height: 100%;
+        background: url(../images/Who_is_ACN_image/Who_Is_ACN_mobile/co-founder_banner.png) center;
+        background-size: cover;
+    }
     #l-banner-enrg {
         height: 100%;
         background: url(../images/GEgasmobile-img.png) center;
@@ -2209,8 +2285,6 @@ div.col-sm-2.col-6 {
         text-align: center;
     }
 }
-
-
 
 #logo {
     margin-bottom: 18px;

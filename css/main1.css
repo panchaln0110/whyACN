@@ -476,6 +476,9 @@ sub {
 .font-size-12 {
     font-size: 12px;
 }
+.line-height-24{
+    line-height: 48px;
+}
 
 .abril-fatface {
     font-family: "Abril Fatface";
@@ -1235,7 +1238,10 @@ a.foot-links {
 div.col-sm-2.col-6 {
     padding: 0;
 }
-
+.heightwhy{
+    height:49px;
+    overflow: hidden;
+}
 
 .l-banner-btn-size {
     width: 340px;
@@ -1658,7 +1664,7 @@ div.col-sm-2.col-6 {
 
 }
 
-@media only screen and (min-width: 992px) and (max-width:1024px) {
+@media only screen and (min-width: 992px) and (max-width:1440px) {
     .l-banner-position-wacn {
         height: 233px;
     }
@@ -1683,6 +1689,9 @@ div.col-sm-2.col-6 {
     }
     .mt--18{
         margin-left: -18rem;
+    }
+    .mTt-80{
+        margin-top: 85px;
     }
     .major-bgwhite{
         background-color: white;
@@ -2079,6 +2088,10 @@ div.col-sm-2.col-6 {
     }
     .d-hidemm {
         display: none;
+    }
+    .marginTB{
+        margin-bottom: -89px;
+        margin-top: 90px;
     }
     .font-size-m {
         font-size: 24px;
